@@ -71,7 +71,8 @@ class MainActivity : AppCompatActivity(),MovieDetail {
                         "https://www.hbo.com/euphoria",
 
                         R.drawable.euphoria,
-                        SharedPrefernces.getMovieFavourite("Euphoria")
+                        SharedPrefernces.getMovieFavourite("Euphoria"),
+                        "7.9"
                     ),
 
                     MovieData(

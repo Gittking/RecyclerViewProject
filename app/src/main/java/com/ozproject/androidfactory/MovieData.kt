@@ -10,7 +10,9 @@ data class MovieData(
     var buttonText : String = "",
     var imageUrl : String = "",
     var imageResource : Int =0,
-    var isFavourite: Boolean
+    var isFavourite: Boolean,
+    var movieRating:String=""
+
 )
 
 
