@@ -1,18 +1,8 @@
 package com.ozproject.androidfactory
 
-import android.content.Intent
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.text.TextUtils.replace
-import android.view.Menu
-import android.view.MenuItem
-import androidx.fragment.app.commit
-import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_second.*
-
 
 class MainActivity : AppCompatActivity(),MovieDetail {
 

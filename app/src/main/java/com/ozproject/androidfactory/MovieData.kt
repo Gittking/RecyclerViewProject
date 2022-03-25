@@ -1,6 +1,6 @@
 package com.ozproject.androidfactory
 
-import java.io.Serializable
+
 
 data class MovieData(
     var positionTracker: Int = 0,

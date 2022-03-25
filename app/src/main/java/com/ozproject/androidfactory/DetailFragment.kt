@@ -8,11 +8,6 @@ import android.util.Log
 import android.view.*
 import android.widget.ImageView
 import android.widget.TextView
-import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_second.view.*
-import kotlinx.android.synthetic.main.activity_second.view.ImageHeader
-import kotlinx.android.synthetic.main.fragment_detail.*
-import kotlinx.android.synthetic.main.fragment_detail.view.*
 
 
 class DetailFragment : ParentFragmentExtension(R.layout.fragment_detail) {

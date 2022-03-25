@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.SharedPreferences
 
 object SharedPrefernces {
-    //  lateinit var context: Context
     lateinit var sharedPref: SharedPreferences // context.getSharedPreferences("pref", Context.MODE_PRIVATE)
 
     fun init(context: Context) {
