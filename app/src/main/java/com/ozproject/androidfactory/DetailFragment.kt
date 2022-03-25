@@ -23,7 +23,7 @@ class DetailFragment : ParentFragmentExtension(R.layout.fragment_detail) {
         super.onViewCreated(view, savedInstanceState)
         Log.i("Movie", movie.toString())
         setHasOptionsMenu(true)
-         setToolbarMenu("Movie Detail")
+         setToolbarMenu("Movie Details")
 
             val movieImage: ImageView = view.findViewById(R.id.ImageHeader)
             val movieTitle: TextView = view.findViewById(R.id.movieTitle)
